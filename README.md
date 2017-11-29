@@ -1,6 +1,6 @@
 # Rails Graphql
 
-An ruby api with Graphql and Postgresql implementation
+A Ruby api with Graphql and PostgreSQL implementation
 
 ## Setup
 
