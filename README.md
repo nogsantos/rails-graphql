@@ -21,3 +21,4 @@ rails db:migrate
 
 #### Refereces
 [graphql.org](http://graphql.org)
+[graphql-ruby](http://graphql-ruby.org/)
