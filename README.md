@@ -20,5 +20,7 @@ rails db:migrate
 ![](https://github.com/nogsantos/rails-graphql/blob/master/public/img/movies_query.png)
 
 #### Refereces
+
 [graphql.org](http://graphql.org)
+
 [graphql-ruby](http://graphql-ruby.org/)
