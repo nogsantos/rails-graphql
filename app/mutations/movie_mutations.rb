@@ -45,10 +45,8 @@ module MovieMutations
 
         resolve -> (inputs, ctx) {
             post = NodeIdentification.object_from_id_proc.call(inputs[:post_id], ctx)
-            comment = NodeIdentification.object_from_id_proc.call(inputs[:id], ctx)
-
-            comment.destroy
-
+            movie = NodeIdentification.object_from_id_proc.call(inputs[:id], ctx)
+            movie.destroy
             {
                 post: post,
                 deletedId: inputs[:id]
