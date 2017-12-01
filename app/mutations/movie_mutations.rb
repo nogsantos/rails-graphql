@@ -9,8 +9,8 @@ module MovieMutations
         input_field :body, !types.String
 
         # Define return parameters
-        return_field :movieEdge, MovieType.edge_type
-        return_field :post, PostType
+        # return_field :movieEdge, MovieType.edge_type
+        # return_field :post, PostType
 
         # Resolve block to create comment and return hash of post and comment
         resolve -> (inputs, ctx) {

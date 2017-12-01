@@ -4,6 +4,7 @@ QueryType = GraphQL::ObjectType.define do
 
     field :movie do
         type MovieType
+        description "Query a movie by id"
         argument :id, !types.ID
         resolve -> (obj, args, ctx) {
             Movie.find(args[:id])
@@ -12,6 +13,7 @@ QueryType = GraphQL::ObjectType.define do
 
     field :movies do
         type types[MovieType]
+        description "Query movies by year"
         argument :year, types.Int
         resolve -> (obj, args, ctx) {
             if args[:year].present?
@@ -24,6 +26,7 @@ QueryType = GraphQL::ObjectType.define do
 
     field :actor do
         type ActorType
+        description "Query an actor by id"
         argument :id, !types.ID
         resolve -> (obj, args, ctx) {
             Actor.find(args[:id])
