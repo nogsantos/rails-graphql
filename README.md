@@ -22,13 +22,13 @@ rails s
 
 ### Queries
 
-![](https://github.com/nogsantos/rails-graphql/blob/master/public/img/graphiql_example.png)
+![](https://res.cloudinary.com/nogsantos/image/upload/v1512413122/graphiql_example_fidlkj.png)
 
-![](https://github.com/nogsantos/rails-graphql/blob/master/public/img/graphiql_example_2.png)
+![](https://res.cloudinary.com/nogsantos/image/upload/v1512413117/graphiql_example_2_okeah5.png)
 
-![](https://github.com/nogsantos/rails-graphql/blob/master/public/img/movie_query.png)
+![](https://res.cloudinary.com/nogsantos/image/upload/v1512413122/movie_query_efkw6h.png)
 
-![](https://github.com/nogsantos/rails-graphql/blob/master/public/img/movies_query.png)
+![](https://res.cloudinary.com/nogsantos/image/upload/v1512413122/movies_query_dkvas3.png)
 
 #### Refereces
 
