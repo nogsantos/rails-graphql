@@ -47,3 +47,8 @@ gem "graphiql-rails"
 gem 'sass-rails'
 gem 'uglifier'
 gem 'coffee-rails'
+
+group :development, :test do
+    gem 'rspec-rails', '~> 3.6'
+    gem 'ffaker'
+end

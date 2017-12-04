@@ -8,12 +8,23 @@ A Ruby api with Graphql and PostgreSQL implementation
 ```shell
 bundle install
 ```
-### Migrate
+### Develpment env
 ```shell
-rails db:migrate
+rake dev:setup
 ```
+### Start server
+```shell
+rails s
+```
+### GraphiQL
+
+[localhost:3000/graphiql](http://localhost:3000/graphiql)
 
 ### Queries
+
+![](https://github.com/nogsantos/rails-graphql/blob/master/public/img/graphiql_example.png)
+
+![](https://github.com/nogsantos/rails-graphql/blob/master/public/img/graphiql_example_2.png)
 
 ![](https://github.com/nogsantos/rails-graphql/blob/master/public/img/movie_query.png)
 

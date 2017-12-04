@@ -24,8 +24,10 @@ ActiveRecord::Schema.define(version: 20171130151415) do
   end
 
   create_table "actors_movies", force: :cascade do |t|
-    t.bigint "movie_id"
     t.bigint "actor_id"
+    t.bigint "movie_id"
+    t.index ["actor_id"], name: "index_actors_movies_on_actor_id"
+    t.index ["movie_id"], name: "index_actors_movies_on_movie_id"
   end
 
   create_table "movies", force: :cascade do |t|
