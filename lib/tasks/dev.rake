@@ -3,9 +3,7 @@ namespace :dev do
     desc "Setup Development"
     task setup: :environment do
         puts "Executando o setup para ambiente de  #{Rails.env}"
-        puts "Apagando o BD...#{%x(rails db:drop)}"
-        puts "Criando o BD...#{%x(rails db:create)}"
-        puts %x(rails db:migrate)
+        puts "Configurando o DataBase... #{%x(rails db:drop db:create db:migrate)}"
         puts %x(rails dev:generate_actors)
         puts %x(rails dev:generate_movies)
         puts %x(rails dev:register_actors_for_movies)
